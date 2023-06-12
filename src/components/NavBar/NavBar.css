@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+.menu {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+.img-logo {
+    height: 5rem;
+}
