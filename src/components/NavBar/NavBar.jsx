@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
         <Navbar bg="light" expand="lg" className='menu'>
             <Container fluid>
-                <Navbar.Brand href="#" className='mb-4 mt-1 mx-4'><img className='img-logo' src="../public/img/logo-plantame.png" alt="logo planta.me" /></Navbar.Brand>
+                <Navbar.Brand href="#" className='mb-4 mt-1 mx-4'><img className='img-logo' src="./img/logo-plantame.png" alt="logo planta.me" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
