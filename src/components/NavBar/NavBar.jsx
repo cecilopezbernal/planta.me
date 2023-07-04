@@ -19,10 +19,10 @@ const NavBar = () => {
                     >
                         <Nav.Link href="#action1" className='mx-3'>Plantas</Nav.Link>
                         <Nav.Link href="#action2" className='mx-3'>Macetas</Nav.Link>
-                        <Nav.Link href="#action3"  className='mx-3'>Rebajas</Nav.Link>
+                        <Nav.Link href="#action3" className='mx-3'>Rebajas</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <CartWidget/>
+                <CartWidget />
             </Container>
         </Navbar>
     )

@@ -1,0 +1,11 @@
+.tarjetas {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 1.5%;
+}
+
+.card {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
