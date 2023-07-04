@@ -1,15 +1,19 @@
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from "../CartWidget/CartWidget";
+import { Link, NavLink } from 'react-router-dom';
 import './NavBar.css';
 
 const NavBar = () => {
     return (
         <Navbar bg="light" expand="lg" className='menu'>
             <Container fluid>
+                <Link to="/">
                 <Navbar.Brand href="#" className='mb-4 mt-1 mx-4'><img className='img-logo' src="./img/logo-plantame.png" alt="logo planta.me" /></Navbar.Brand>
+                </Link>
+                
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -17,9 +21,15 @@ const NavBar = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1" className='mx-3'>Plantas</Nav.Link>
-                        <Nav.Link href="#action2" className='mx-3'>Macetas</Nav.Link>
-                        <Nav.Link href="#action3" className='mx-3'>Rebajas</Nav.Link>
+                        <Nav.Link href="#action1" className='mx-3'>
+                            <NavLink to="/categoria/2">Plantas</NavLink> 
+                        </Nav.Link>
+                        <Nav.Link href="#action2" className='mx-3'>
+                            <NavLink to="/categoria/3">Macetas</NavLink> 
+                        </Nav.Link>
+                        {/* <Nav.Link href="#action3" className='mx-3'>
+                            Rebajas
+                        </Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
                 <CartWidget />
