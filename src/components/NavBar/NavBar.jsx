@@ -22,14 +22,16 @@ const NavBar = () => {
                         navbarScroll
                     >
                         <Nav.Link className='mx-3'>
-                            <NavLink to="/categoria/2">Plantas</NavLink> 
+                            <NavLink className="navlink" to="/categoria/2">Plantas</NavLink> 
                         </Nav.Link>
                         <Nav.Link className='mx-3'>
-                            <NavLink to="/categoria/3">Macetas</NavLink> 
+                            <NavLink className="navlink" to="/categoria/3">Macetas</NavLink> 
                         </Nav.Link>
                     </Nav>
+
+                    <CartWidget />
                 </Navbar.Collapse>
-                <CartWidget />
+                
             </Container>
         </Navbar>
     )

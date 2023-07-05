@@ -7,5 +7,11 @@
 }
 
 .img-logo {
-    height: 5rem;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.navlink {
+    text-decoration: none;
+    color: rgb(45, 45, 45);
 }
