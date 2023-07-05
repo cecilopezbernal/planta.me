@@ -10,9 +10,9 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={ <ItemListContainer greeting={"Todos los productos"}/> } />
-          <Route path="/category/:idCategory" element={ <ItemListContainer /> } />
-          <Route path="/item/:idItem" element={ <ItemDetailContainer /> } />
-          {/* <Route path="*" element={ <h2> -- Tuvimos un problema al encontrar lo que buscas, vuelve a intentarlo 👾 -- </h2> } /> */}
+          <Route path="/categoria/:idCategory" element={ <ItemListContainer greeting={"Productos por categoría"}/> } />
+          <Route path="/item/:idItem" element={ <ItemDetailContainer/> } />
+          <Route path="*" element={ <h2> -- Tuvimos un problema al encontrar lo que buscas, vuelve a intentarlo 👾 -- </h2> } />
 
         </Routes>
 
