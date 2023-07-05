@@ -1,8 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-
-const Item = ({ id, nombre, text, precio, img }) => {
+const Item = ({ nombre, text, precio, img }) => {
     return (
 
         <Card style={{ width: '18rem' }}>
