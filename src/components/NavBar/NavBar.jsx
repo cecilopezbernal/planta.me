@@ -11,7 +11,7 @@ const NavBar = () => {
         <Navbar bg="light" expand="lg" className='menu'>
             <Container fluid>
                 <Link to="/">
-                    <Navbar.Brand  className='mb-4 mt-1 mx-4'><img className='img-logo' src="./img/logo-plantame.png" alt="logo planta.me" /></Navbar.Brand>
+                    <Navbar.Brand  className='mb-4 mt-1 mx-4'><img className='img-logo' src="../img/logo-plantame.png" alt="logo planta.me" /></Navbar.Brand>
                 </Link>
                 
                 <Navbar.Toggle aria-controls="navbarScroll" />
