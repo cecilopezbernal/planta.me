@@ -29,9 +29,9 @@ const NavBar = () => {
                         </Nav.Link>
                     </Nav>
 
-                    <CartWidget />
+                    {/* <CartWidget /> */}
                 </Navbar.Collapse>
-                
+                <CartWidget />
             </Container>
         </Navbar>
     )
