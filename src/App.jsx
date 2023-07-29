@@ -3,7 +3,7 @@ import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CarritoProvider } from "./context/CarritoContext";
-import Cart from "./components/Cart/CArt";
+import Cart from "./components/Cart/Cart";
 import Checkout from "./components/Checkout/Checkout";
 
 const App = () => {
