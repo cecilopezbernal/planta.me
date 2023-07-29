@@ -28,10 +28,10 @@ const NavBar = () => {
                             <NavLink className="navlink" to="/categoria/3">Macetas</NavLink> 
                         </Nav.Link>
                     </Nav>
-
-                    {/* <CartWidget /> */}
                 </Navbar.Collapse>
+
                 <CartWidget />
+                
             </Container>
         </Navbar>
     )
