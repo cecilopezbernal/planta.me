@@ -1,0 +1,13 @@
+.contador {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 2rem ;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    align-items: baseline;
+}
+
+.btn-agregar {
+    margin-left: 0.5rem;
+}

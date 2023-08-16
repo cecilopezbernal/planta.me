@@ -1,7 +1,16 @@
-.detalle-producto {
+.hoja-producto {
     margin: 2% 10%;
+    display: flex;
+}
+
+.detalle-producto{
+    margin-left: 2rem;
 }
 
 .nombre-producto {
     color: rgb(45, 45, 45);
+}
+
+.img-detail {
+    width: 40%;
 }
