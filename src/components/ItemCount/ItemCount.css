@@ -1,10 +1,10 @@
 .contador {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 8rem;
     margin-top: 2rem ;
     margin-bottom: 1rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     align-items: baseline;
 }
 
